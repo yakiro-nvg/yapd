@@ -63,7 +63,7 @@ with selective search.
 
 # Quick start
 
-This is the demonstation video.
+This is the demonstration video.
 
 [![Youtube Link](https://img.youtube.com/vi/DNJVN_bm9BM/0.jpg)](https://www.youtube.com/watch?v=https://img.youtube.com/vi/DNJVN_bm9BM/0.jpg)
 
