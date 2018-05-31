@@ -67,7 +67,7 @@ This is the demonstration video.
 
 [![Youtube Link](https://img.youtube.com/vi/DNJVN_bm9BM/0.jpg)](https://www.youtube.com/watch?v=https://img.youtube.com/vi/DNJVN_bm9BM/0.jpg)
 
-Well, if you want to run it on your machine, there is no convinent step by step guide here,
+Well, if you want to run it on your machine, there is no convenient step by step guide here,
 sorry about that. Using CMake you can build it quite easily thought. It depends on python
 to generate the LUV table and OpenCL resource header. Servo is a reference application
 which depends on OpenCV for Video playing and visualization. However, core library isn't
