@@ -4,7 +4,7 @@ This source isn't intended to be used in a product. Yes, the license is `MIT`, y
 free to use it in whatever way you want. However, this is just a result form my
 two-week hackathon, to searching for a realtime pedestrian detector that can be
 run on embedded hardware. Please, don't expect more from that. Besides,  I'm too
-busy now to turn it into a serious product, there is limited comment inside source
+busy now to turn it to a serious product, there is limited comment inside source
 code as well, sorry about that.
 
 # What works currently
