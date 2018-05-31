@@ -30,7 +30,7 @@ embedded device now. Which was used as the baseline detector for dozens of varia
 also. Combining the power of various channel with a boosted classifier, this algorithm
 out-performs other state of art algorithms, both speed and accuracy. In stead of using
 the integral images as the precursor (ICF), ACF aggregates these feature into a single
-pixel lookup, that is cheap to be stored, and crazy fast to lookup.
+pixel, that is cheap to be stored, and crazy fast to lookup.
 
 Another key to achieves realtime performance is `fast pyramid features`, that
 was invented by the same author of ACF as well. Based on natural image research, he
