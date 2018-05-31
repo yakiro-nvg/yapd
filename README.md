@@ -9,7 +9,7 @@ code as well, sorry about that.
 
 # What works currently
 
-- ANSI C + OpenCL implementation.
+- ANSI C & OpenCL implementation.
 - Aggregated 10-channel features.
     - 6 orientations HOG.
     - 3 channel for LUV.
