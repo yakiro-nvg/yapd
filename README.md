@@ -34,7 +34,7 @@ pixel, that is cheap to be stored, and crazy fast to lookup.
 
 Another key to achieves realtime performance is `fast pyramid features`, that
 was invented by the same author of ACF as well. Based on natural image research, he
-discovered that there are relative relationship between feature in nearby scale, which
+discovered that there are relative relation between feature in nearby scales, which
 is mostly correct as long at the scale distance is less than half of an octave. Therefore,
 we can compute the pyramid sparely, and using that to approximate remaining.
 
