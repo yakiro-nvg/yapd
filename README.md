@@ -1,6 +1,6 @@
 # WARNING, used as reference only!!!
 
-This source isn't intended to be used in a product. Yes, the license is `MIT`, you are
+This source isn't intended to be used in a product. Yes, the license is `GLWTPL`, you are
 free to use it in whatever way you want. However, this is just a result form my
 two-week hackathon, to searching for a realtime pedestrian detector that can be
 run on embedded hardware. Please, don't expect more from that. Besides,  I'm too
