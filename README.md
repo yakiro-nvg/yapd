@@ -4,12 +4,12 @@ This source isn't intended to be used in a product. Yes, the license is `MIT`, y
 free to use it in whatever way you want. However, this is just a result form my
 two-week hackathon, to searching for a realtime pedestrian detector that can be
 run on embedded hardware. Please, don't expect more from that. Besides,  I'm too
-busy now to turn it into a serious product, there is limited comment inside source
+busy now to turn it to a serious product, there is limited comment inside source
 code as well, sorry about that.
 
 # What works currently
 
-- ANSI C + OpenCL implementation.
+- ANSI C & OpenCL implementation.
 - Aggregated 10-channel features.
     - 6 orientations HOG.
     - 3 channel for LUV.
@@ -30,11 +30,11 @@ embedded device now. Which was used as the baseline detector for dozens of varia
 also. Combining the power of various channel with a boosted classifier, this algorithm
 out-performs other state of art algorithms, both speed and accuracy. In stead of using
 the integral images as the precursor (ICF), ACF aggregates these feature into a single
-pixel lookup, that is cheap to be stored, and crazy fast to lookup.
+pixel, that is cheap to be stored, and crazy fast to lookup.
 
 Another key to achieves realtime performance is `fast pyramid features`, that
 was invented by the same author of ACF as well. Based on natural image research, he
-discovered that there are relative relationship between feature in nearby scale, which
+discovered that there are relative relation between feature in nearby scales, which
 is mostly correct as long at the scale distance is less than half of an octave. Therefore,
 we can compute the pyramid sparely, and using that to approximate remaining.
 
@@ -63,11 +63,11 @@ with selective search.
 
 # Quick start
 
-This is the demonstation video.
+This is the demonstration video.
 
-[![Youtube Link](https://img.youtube.com/vi/DNJVN_bm9BM/0.jpg)](https://www.youtube.com/watch?v=https://img.youtube.com/vi/DNJVN_bm9BM/0.jpg)
+[![Youtube Link](https://img.youtube.com/vi/DNJVN_bm9BM/0.jpg)](https://www.youtube.com/watch?v=DNJVN_bm9BM)
 
-Well, if you want to run it on your machine, there is no convinent step by step guide here,
+Well, if you want to run it on your machine, there is no convenient step by step guide here,
 sorry about that. Using CMake you can build it quite easily thought. It depends on python
 to generate the LUV table and OpenCL resource header. Servo is a reference application
 which depends on OpenCV for Video playing and visualization. However, core library isn't
